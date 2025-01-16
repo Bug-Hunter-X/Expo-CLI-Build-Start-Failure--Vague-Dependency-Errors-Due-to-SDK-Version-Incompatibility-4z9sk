@@ -1,0 +1,4 @@
+This error occurs when using Expo CLI with a project that has dependencies that are not compatible with the current Expo SDK version.  This often happens when updating Expo SDK version or adding new libraries.  The error messages themselves can be vague, sometimes pointing to a particular dependency but not always clearly indicating the incompatibility.
+
+Example Scenario:
+Your project uses `react-native-maps` version X, which is incompatible with Expo SDK version Y. Expo CLI might throw an error during build or start, mentioning a dependency issue but not explicitly stating the incompatibility between `react-native-maps` and the SDK.
